@@ -148,5 +148,5 @@ All applied changes can be reverted using the Restore feature.
 
 # 📜 License
 
-This project is released under the MIT License.  
+This project is released under the MIT License. 
 
