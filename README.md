@@ -4,7 +4,6 @@
 
 Aion2 Optimizer is a Windows utility created for AION 2 players who want better performance, lower latency, and a smoother gaming experience with minimal effort.
 
-![Banner](assets/banner.png)
 
 ![GitHub Release](https://img.shields.io/github/v/release/miken-ops1998a1/Aion2-Optimizer-Network-Frame-Stabilizer)
 ![License](https://img.shields.io/github/license/miken-ops1998a1/Aion2-Optimizer-Network-Frame-Stabilizer)
