@@ -1,0 +1,124 @@
+{
+    "app_name": "Aion2 Optimizer",
+    "version": "1.0.0",
+    "game": {
+        "name": "AION 2",
+        "process_names": [
+            "aion2.exe",
+            "aion.exe",
+            "aion2_client.exe",
+            "Aion2-Win64-Shipping.exe"
+        ],
+        "steam_app_id": "2877530",
+        "launcher_paths": [
+            "C:\\Program Files (x86)\\Steam\\steamapps\\common\\AION 2",
+            "C:\\Program Files\\NCSoft\\AION 2",
+            "C:\\Program Files (x86)\\NCSoft\\AION 2"
+        ]
+    },
+    "network": {
+        "enabled": true,
+        "tcp_nodelay": true,
+        "disable_nagle": true,
+        "tcp_ack_frequency": 1,
+        "tcp_ack_delay": 1,
+        "flush_dns": true,
+        "dns_servers": [
+            "1.1.1.1",
+            "1.0.0.1"
+        ],
+        "qos_dscp": 46,
+        "disable_ipv6": false
+    },
+    "process": {
+        "enabled": true,
+        "priority": "HIGH",
+        "cpu_affinity": "all",
+        "io_priority": "HIGH",
+        "power_plan": "high_performance",
+        "kill_background": true,
+        "background_targets": [
+            "chrome.exe",
+            "firefox.exe",
+            "msedge.exe",
+            "opera.exe",
+            "brave.exe",
+            "discord.exe",
+            "spotify.exe",
+            "OneDrive.exe",
+            "Dropbox.exe",
+            "Teams.exe",
+            "SteamWebHelper.exe",
+            "EpicGamesLauncher.exe",
+            "GalaxyClient.exe",
+            "Battle.net.exe"
+        ],
+        "protect_processes": [
+            "explorer.exe",
+            "dwm.exe",
+            "csrss.exe",
+            "winlogon.exe",
+            "services.exe",
+            "lsass.exe",
+            "svchost.exe",
+            "System",
+            "Registry"
+        ]
+    },
+    "windows_services": {
+        "disable_during_game": [
+            "SysMain",
+            "WSearch",
+            "DiagTrack",
+            "dmwappushservice",
+            "XblAuthManager",
+            "XblGameSave",
+            "XboxNetApiSvc",
+            "MapsBroker",
+            "RetailDemo"
+        ],
+        "restore_after_game": true
+    },
+    "graphics": {
+        "disable_fullscreen_optimization": true,
+        "disable_game_bar": true,
+        "disable_game_dvr": true,
+        "gpu_priority": "high",
+        "nvidia_low_latency": "ultra",
+        "amd_anti_lag": true,
+        "hardware_accelerated_gpu_scheduling": true,
+        "variable_refresh_rate": true
+    },
+    "memory": {
+        "clean_ram": true,
+        "ram_threshold_mb": 100,
+        "trim_working_sets": true,
+        "clear_standby_list": true,
+        "large_system_cache": false
+    },
+    "monitoring": {
+        "show_ping": true,
+        "show_fps": true,
+        "show_ram_usage": true,
+        "update_interval_ms": 1000,
+        "ping_host": "8.8.8.8",
+        "log_to_file": true,
+        "log_path": "%APPDATA%\\Aion2Optimizer\\logs"
+    },
+    "ui": {
+        "theme": "dark",
+        "accent_color": "#FFD700",
+        "bg_color": "#0D1117",
+        "auto_minimize_on_game_start": true,
+        "start_with_windows": false,
+        "notifications": true
+    },
+    "advanced": {
+        "auto_optimize_on_game_launch": false,
+        "auto_restore_on_game_exit": true,
+        "backup_registry": true,
+        "backup_path": "%APPDATA%\\Aion2Optimizer\\backups",
+        "create_restore_point": false,
+        "safe_mode": true
+    }
+}

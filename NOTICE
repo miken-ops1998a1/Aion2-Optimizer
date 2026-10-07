@@ -1,0 +1,135 @@
+===============================================================================
+                              NOTICE
+===============================================================================
+
+Aion2 Optimizer
+Copyright (c) 2026 miken-ops1998a1
+
+Repository:
+https://github.com/miken-ops1998a1/Aion2-Optimizer-Network-Frame-Stabilizer
+
+Licensed under the MIT License. See LICENSE file for full terms.
+
+-------------------------------------------------------------------------------
+THIRD-PARTY SOFTWARE
+-------------------------------------------------------------------------------
+
+This product includes software developed by third parties. The following
+components are used, either at build time or at runtime:
+
+1. psutil
+   -------------
+   Copyright (c) 2009 Giampaolo Rodola
+   License: BSD 3-Clause "New" or "Revised" License
+   Homepage: https://github.com/giampaolo/psutil
+
+   Used for: process enumeration, CPU affinity, memory stats,
+             background process termination.
+
+2. pywin32
+   -------------
+   Copyright (c) 1994-2024 Mark Hammond
+   License: Python Software Foundation License (PSF-2.0)
+   Homepage: https://github.com/mhammond/pywin32
+
+   Used for: Windows API access (process priority, registry,
+             window management).
+
+3. PyInstaller
+   -------------
+   Copyright (c) 2010-2026 PyInstaller Development Team
+   License: GPL-2.0-or-later with a special exception that allows
+            distributing bundled executables under any license.
+   Homepage: https://pyinstaller.org/
+
+   Used for: packaging the Python application into a standalone .exe.
+
+4. Inno Setup
+   -------------
+   Copyright (c) 1997-2026 Jordan Russell
+   License: Modified BSD-style license
+   Homepage: https://jrsoftware.org/isinfo.php
+
+   Used for: generating the Windows installer.
+
+5. Pillow (PIL Fork)
+   -------------
+   Copyright (c) 2010-2026 by Jeffrey A. Clark (Alex) and contributors
+   License: MIT-CMU (Historical Permission Notice and Disclaimer)
+   Homepage: https://python-pillow.org/
+
+   Used for: generating icon.ico and banner.png at build time
+             (developer tools only, not shipped in runtime).
+
+6. Python Standard Library
+   -------------
+   Copyright (c) 2001-2026 Python Software Foundation
+   License: PSF License Agreement
+   Homepage: https://www.python.org/
+
+   Used for: core runtime (tkinter, subprocess, os, sys, json, etc.).
+
+-------------------------------------------------------------------------------
+TRADEMARKS
+-------------------------------------------------------------------------------
+
+"AION", "AION 2", and all related logos, characters, and artwork are
+registered trademarks and/or copyright of NCSOFT Corporation and its
+subsidiaries.
+
+This project is an independent, community-made tool. It is NOT affiliated
+with, endorsed by, sponsored by, or approved by NCSOFT Corporation.
+
+The names "AION 2" and "Aion" are used in this project purely for
+descriptive and compatibility purposes (to indicate which game the tool
+is intended for), in accordance with fair use principles.
+
+All other trademarks are the property of their respective owners.
+
+-------------------------------------------------------------------------------
+ASSETS
+-------------------------------------------------------------------------------
+
+The following files in the /assets directory were created by the author
+of this project and are covered by the same MIT License as the rest of
+the software:
+
+  - assets/icon.svg       (original vector graphic)
+  - assets/icon.ico       (derived from icon.svg)
+  - assets/banner.png     (original graphic)
+  - assets/screenshot.png (original screenshot of the application)
+
+No third-party artwork, game assets, or copyrighted images are included
+in this repository. If any file is found to infringe a copyright, please
+open an issue and it will be removed immediately.
+
+-------------------------------------------------------------------------------
+DISCLAIMER
+-------------------------------------------------------------------------------
+
+This software does NOT:
+
+  - modify, inject into, or read memory of any game process
+  - automate gameplay, input, or decision-making
+  - bypass anti-cheat systems (Easy Anti-Cheat, BattlEye, GameGuard, etc.)
+  - provide any unfair competitive advantage
+
+This software ONLY changes Windows-level settings:
+
+  - network registry keys (TCP NoDelay, TcpAckFrequency)
+  - process priority and CPU affinity
+  - power plans and background services
+
+USE AT YOUR OWN RISK.
+
+The author (miken-ops1998a1) is not responsible for:
+
+  - any violation of a game's Terms of Service caused by the user
+  - system instability, data loss, or hardware damage
+  - account bans issued by anti-cheat systems (which this tool does
+    not touch)
+
+By using this software you agree that you are solely responsible for
+complying with the Terms of Service of any game you play.
+
+===============================================================================
