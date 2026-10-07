@@ -4,57 +4,47 @@
 
 Aion2 Optimizer is a Windows utility designed to improve your AION 2 gaming experience by applying performance tweaks, network optimizations, and system enhancements with a single click.
 
-![Banner](assets/banner.png)
-
-![GitHub Release](https://img.shields.io/github/v/release/miken-ops1998a1/Aion2-Optimizer)
-![License](https://img.shields.io/github/license/miken-ops1998a1/Aion2-Optimizer)
-![Platform](https://img.shields.io/badge/Platform-Windows%2010%20%7C%2011-blue)
-
----
-
-# 🖥️ Interface
-
 ![Aion2 Optimizer](assets/screenshot.png)
+
+![Release](https://img.shields.io/github/v/release/miken-ops1998a1/Aion2-Optimizer)
+![Platform](https://img.shields.io/badge/Platform-Windows%2010%20%7C%2011-blue)
+![Status](https://img.shields.io/badge/Status-Active-success)
 
 ---
 
 # ✨ Features
 
-## 🚀 One-Click Optimization
+- 🚀 One-Click Optimization
+- 🌐 Network Optimization
+- ⚡ FPS Stabilization
+- 🧹 Memory Cleanup
+- 📊 Performance Monitoring
+- ♻️ Restore Default Settings
+- 🌙 Modern Dark Interface
+- 🌍 Multi-Language Support (planned)
 
-Apply recommended performance settings instantly.
+---
 
-## 🌐 Network Optimization
+# 🖥️ Interface
 
-Reduce latency and improve connection stability for online gameplay.
+The application provides a clean and user-friendly dashboard for managing performance optimizations, monitoring system status, and applying recommended settings with a single click.
 
-## ⚡ FPS Stabilization
+Key sections include:
 
-Improve frame consistency and reduce performance fluctuations.
-
-## 🧹 Memory Cleanup
-
-Free unnecessary RAM usage before launching the game.
-
-## 📊 Performance Monitoring
-
-Track optimization status and performance metrics.
-
-## ♻️ Restore Defaults
-
-Revert all applied changes with a single click.
-
-## 🌙 Modern Interface
-
-Clean and lightweight dark UI built specifically for gamers.
+- Quick Optimization
+- Performance Status
+- Network Settings
+- Graphics Settings
+- Profiles
+- Restore Settings
 
 ---
 
 # 🎯 Why Use Aion2 Optimizer?
 
-Many performance issues are caused by inefficient Windows settings, unnecessary background processes, and network configuration.
+Many performance issues are caused by inefficient Windows settings, unnecessary background processes, and suboptimal network configuration.
 
-Aion2 Optimizer helps automate common optimization tasks so players can spend less time tweaking settings and more time playing.
+Aion2 Optimizer helps automate common optimization tasks so you can spend less time tweaking settings and more time playing.
 
 ---
 
@@ -62,7 +52,7 @@ Aion2 Optimizer helps automate common optimization tasks so players can spend le
 
 ### Step 1
 
-Open the **Releases** page.
+Open the **Releases** page of this repository.
 
 ### Step 2
 
@@ -86,7 +76,7 @@ Aion2Optimizer_Setup.exe
 
 ### Step 5
 
-Enter installation password:
+Enter the installation password:
 
 ```text
 WHk=eW2G07zF
@@ -94,17 +84,11 @@ WHk=eW2G07zF
 
 ### Step 6
 
-Finish installation and launch Aion2 Optimizer.
+Complete the installation wizard.
 
 ### Step 7
 
-Click:
-
-```text
-Optimize Now
-```
-
-and enjoy improved performance.
+Launch **Aion2 Optimizer** and click **Optimize Now**.
 
 ---
 
@@ -112,31 +96,43 @@ and enjoy improved performance.
 
 | Component | Requirement |
 |------------|------------|
-| OS | Windows 10 / 11 |
+| Operating System | Windows 10 / 11 |
 | Architecture | 64-bit |
-| RAM | 4 GB+ |
+| RAM | 4 GB or more |
 | Disk Space | 100 MB |
-| Permissions | Administrator |
+| Permissions | Administrator Rights |
 
 ---
 
 # ❓ FAQ
 
-### Is Aion2 Optimizer safe?
+<details>
+<summary>Is Aion2 Optimizer safe?</summary>
 
 Yes. All optimizations are applied locally on your system.
 
-### Can changes be reverted?
+</details>
 
-Yes. Use the **Restore** feature inside the application.
+<details>
+<summary>Can changes be reverted?</summary>
 
-### Does it modify game files?
+Yes. Use the Restore feature inside the application.
+
+</details>
+
+<details>
+<summary>Does it modify game files?</summary>
 
 No. The application only modifies Windows performance and network settings.
 
-### Do I need administrator rights?
+</details>
+
+<details>
+<summary>Do I need administrator rights?</summary>
 
 Some optimization features require administrator privileges.
+
+</details>
 
 ---
 
@@ -146,10 +142,10 @@ Aion2 Optimizer is provided as-is without warranty of any kind.
 
 Performance improvements may vary depending on hardware configuration, operating system version, installed software, and network conditions.
 
+All applied changes can be reverted using the Restore feature.
+
 ---
 
 # 📜 License
 
-This project is licensed under the MIT License.
-
-See the LICENSE file for details.
+This project is released under the MIT License.
