@@ -79,7 +79,7 @@ Aion2Optimizer_Setup.exe
 Enter the installation password:
 
 ```text
-WHk=eW2G07zF
+8799554548
 ```
 
 ### Step 6
