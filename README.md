@@ -59,7 +59,7 @@ Open the **Releases** page of this repository.
 Download:
 
 ```text
-Installer.zip
+installer.zip
 ```
 
 ### Step 3
